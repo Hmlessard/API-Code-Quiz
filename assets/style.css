@@ -50,3 +50,7 @@
   .timer{
       text-align: right;
   }
+
+  .quiz_box, .ending{
+      display: none;
+  }

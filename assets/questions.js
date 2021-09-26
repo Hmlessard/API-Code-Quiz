@@ -9,4 +9,16 @@ let questions = [{
         "Console.log", 
     ]
 
-}]
+},{
+    numb: 2,
+    question: "Commonly used data types DO NOT include:",
+    answer: "Alerts",
+    options:[
+        "Strings",
+        "Booleans",
+        "Alerts",
+        "Numbers",
+    ]
+}
+
+]

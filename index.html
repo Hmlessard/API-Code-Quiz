@@ -27,27 +27,55 @@
             <span class="view_high_score">View High Score</span>
             <span class="timer">
                 <span class="time_label">Time</span>
-                <span class="time_sec">"time_sec"</span>
+                <span class="time_sec"></span>
             </span>
         </div>
+        <section>
+            <div class="que_text">
+    
+            </div>
+            <div class="option_list">
+    
+            </div>
+        </section>
+        <section>
+            <div class="message">
+
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+        
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
     </div>
 
-    <section>
-        <div class="que_text">
+   <div class="ending">
+    <div>
+        <span class="view_high_score">View High Score</span>
+        <span class="timer">
+            <span class="time_label">Time</span>
+            <span class="time_sec"></span>
+        </span>
+    </div> 
+        <h1>All Done!</h1>
+        <p>Your final score is: <span id="score"></span></p>
+        <p>Enter Initials:<input type="text" id="initials"> <button id="submit-initials">Submit</button></p>
+   </div>
 
-        </div>
-        <div class="option_list">
+   <div class="high-score">
+       <h1>High Scores</h1>
+       <div id="score-list">
 
-        </div>
-    </section>
+       </div>
+       <button id="go-back">Go Back</button>
+       <button id="clear-scores">Clear high scores</button>
+   </div>
 
   </main>
 <script src="./assets/questions.js"></script>
+<script src="assets/script.js"></script>
 </body>
-<footer>
-    <div class="total_que">
 
-    </div>
-    <button class="next_btn">Next Question</button>
-</footer>
 </html>
