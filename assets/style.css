@@ -44,7 +44,7 @@
   }
   section .option_list{
       padding: 20px 0px;
-      display: block
+      display: block;
   }
 
   .timer{
@@ -53,4 +53,8 @@
 
   .quiz_box, .ending{
       display: none;
+  }
+
+  #centered{
+    text-align: center;
   }

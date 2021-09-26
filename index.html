@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Code Quiz</title>
   <link rel="stylesheet" href="./assets/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  
 </head>
 
 <body>
@@ -17,7 +17,7 @@
   </header>
 
   <main>
-    <div class="info-box">
+    <div class="info-box" id="centered">
         <h1>Coding Quiz Challenge</h1>
       <p>Try to answer the following code-related questions within the time limit.  Keep in mind that incorrect answers will penalize your score/time by 10 seconds!</p>
       <div class="start_btn"><button>Start Quiz</button></div>
@@ -30,7 +30,7 @@
                 <span class="time_sec"></span>
             </span>
         </div>
-        <section>
+        <section id="centered">
             <div class="que_text">
     
             </div>
@@ -39,15 +39,16 @@
             </div>
         </section>
         <section>
-            <div class="message">
+            <div class="message" id="centered">
 
             </div>
         </section>
         <footer>
-            <div class="total_que">
+            <div class="total_que" id="centered">
         
+            
+                <button class="next_btn">Next Question</button>
             </div>
-            <button class="next_btn">Next Question</button>
         </footer>
     </div>
 
@@ -64,7 +65,7 @@
         <p>Enter Initials:<input type="text" id="initials"> <button id="submit-initials">Submit</button></p>
    </div>
 
-   <div class="high-score">
+   <div class="high-score" id="centered">
        <h1>High Scores</h1>
        <div id="score-list">
 
