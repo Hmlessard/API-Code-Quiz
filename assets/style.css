@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary: #114c53;
+    --secondary: #6e4396;
+    --grey: #333;
+    font-size: 62.5%;
+  }
+  
+  body {
+    background: #ededed;
+    color: var(--grey);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  header {
+    background: var(--secondary);
+    padding: 30px 25px;
+    border-bottom: 5px solid var(--primary);
+    text-align: center;
+  }
+
+  .info-box{
+      text-align: center;
+      font-size: 14px;
+  }
+
+  .view_high_score{
+      text-align: left;
+      color: #d77fda;
+      font-size: 12px;
+  }
+
+  section .que_text{
+      font-size: 25px;
+      font-weight: 600;
+  }
+  section .option_list{
+      padding: 20px 0px;
+      display: block
+  }
+
+  .timer{
+      text-align: right;
+  }
